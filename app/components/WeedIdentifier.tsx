@@ -8,12 +8,23 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Leaf, Upload, Loader2, AlertCircle } from "lucide-react"
 import { identifyWeed } from "../actions/weed-actions"
 
+interface WeedResult {
+  name: string
+  scientificName: string
+  description: string
+  characteristics: string[]
+  controlMethods: string[]
+  impact: string
+}
+
+
 export default function WeedIdentifier() {
   const [file, setFile] = useState<File | null>(null)
   const [preview, setPreview] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
-  const [result, setResult] = useState<any | null>(null)
+  const [result, setResult] = useState<WeedResult | null>(null)
+
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const selectedFile = e.target.files?.[0]

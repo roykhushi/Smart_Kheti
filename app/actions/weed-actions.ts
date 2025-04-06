@@ -47,7 +47,7 @@ export async function identifyWeed(formData: FormData) {
     try {
       return JSON.parse(text)
     } catch (e) {
-      console.error("Failed to parse JSON response:", text)
+      console.error("Failed to parse JSON response:", e)
       
       const match = text.match(/\{[\s\S]*\}/)
       if (match) {
