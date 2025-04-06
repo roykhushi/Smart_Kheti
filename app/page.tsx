@@ -9,10 +9,7 @@ import Products from './components/Products'
 import Support from './components/Support'
 import Blog from './components/Blog'
 import Contact from './components/Contact'
-<<<<<<< HEAD
-=======
 import WeedIdentifier from './components/WeedIdentifier'
->>>>>>> b5235b3 (final changes)
 
 export default function Home() {
   return (
@@ -23,10 +20,7 @@ export default function Home() {
         <About />
         <Technology />
         <Demo />
-<<<<<<< HEAD
-=======
         <WeedIdentifier />
->>>>>>> b5235b3 (final changes)
         <Results />
         <Products />
         <Support />
