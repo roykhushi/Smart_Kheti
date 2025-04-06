@@ -2,7 +2,6 @@
 
 Smart Kheti is a cutting-edge agricultural solution that combines AI/ML and IoT technologies to revolutionize weed management in farming. Built with Next.js and modern web technologies, it offers an intelligent system for weed detection and management.
 
-![Smart Kheti Banner](![alt text](image.png))
 
 ## Features
 
