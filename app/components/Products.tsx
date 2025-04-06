@@ -23,11 +23,7 @@ export default function Products() {
                 <li>Customizable detection parameters for various crop types</li>
               </ul>
               
-<<<<<<< HEAD
-                <Button className="w-full">Learn More</Button>
-=======
                 {/* <Button className="w-full">Learn More</Button> */}
->>>>>>> b5235b3 (final changes)
              
             </CardContent>
           </Card>
@@ -45,11 +41,7 @@ export default function Products() {
                 <li>Edge computing devices for real-time processing</li>
                 <li>Rugged, weather-resistant hardware for field deployment</li>
               </ul>
-<<<<<<< HEAD
-              <Button className="w-full">View Devices</Button>
-=======
               {/* <Button className="w-full">View Devices</Button> */}
->>>>>>> b5235b3 (final changes)
             </CardContent>
           </Card>
         </div>
